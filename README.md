@@ -2,6 +2,10 @@
 
 This toolbox is designed to analyze electroencephalography (EEG) data. The toolbox utilizes the MNE-Python library and other advanced signal-processing methods to explore brain dynamics and connectivity patterns.
 
+![output](https://github.com/user-attachments/assets/341ca2b5-c7ae-42d3-aa40-9c898882d6c3)
+
+
+
 ## Overview
 
 The project includes the following stages:
