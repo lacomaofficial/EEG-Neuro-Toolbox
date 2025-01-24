@@ -16,9 +16,6 @@ This repository contains multiple tests and frameworks for EEG data analysis, fe
 6. [Test4: Wavelet Denoising for Event-Related Epochs](#test4-wavelet-denoising-for-event-related-epochs)
 7. [Test5: Intracranial EEG (iEEG) Seizure Classification](#test5-intracranial-eeg-ieeg-seizure-classification)
 8. [Test6: Spectral Analysis and Classification with XGBoost](#test6-spectral-analysis-and-classification-with-xgboost)
-9. [Installation](#installation)
-10. [Results](#results)
-11. [License](#license)
 
 ---
 
