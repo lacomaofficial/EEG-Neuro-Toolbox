@@ -17,10 +17,9 @@ This repository contains multiple tests and frameworks for EEG data analysis, fe
 7. [Test5: Intracranial EEG (iEEG) Seizure Classification](#test5-intracranial-eeg-ieeg-seizure-classification)
 8. [Test6: Spectral Analysis and Classification with XGBoost](#test6-spectral-analysis-and-classification-with-xgboost)
 
-&nbsp;
 
 ---
-
+&nbsp;
 ## EEG Epoch Processing Framework
 
 This framework is designed for **intersubject** analysis of EEG data, processing raw EEG recordings from multiple subjects, segmenting them into epochs based on experimental events, and saving them for further analysis.
@@ -37,10 +36,10 @@ This framework is designed for **intersubject** analysis of EEG data, processing
 - Run the `main(CONFIG)` function to process data for specified subjects and sessions.
 - Use the `load_epochs()` function to retrieve the processed epochs for analysis.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## EEG Feature Engineering Framework
 
 This framework is used for **intersubject** feature extraction from preprocessed EEG epochs, preparing the data for further analysis or machine learning tasks.
@@ -53,10 +52,10 @@ This framework is used for **intersubject** feature extraction from preprocessed
 - **Data Reshaping**: Organizes features into a table format suitable for machine learning.
 - **Data Saving**: Stores the extracted features for future use.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## Test1: Data Exploration and Visualization
 
 This test is focused on **intrasubject** data exploration and visualization. The primary goal is to segment raw EEG data into epochs based on event markers and perform initial exploration through visualizations.
@@ -66,10 +65,10 @@ This test is focused on **intrasubject** data exploration and visualization. The
 - **Visualization**: Plot the Power Spectral Density (PSD) of EEG data to understand signal characteristics and identify any potential artifacts.
 - **Data Preprocessing**: Filter and clean the EEG signal for further analysis.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## Test2: Auditory vs. Visual Stimuli Classification
 
 In this **intrasubject** test, the focus is on classifying **auditory vs. visual stimuli** based on preprocessed EEG epochs.
@@ -79,10 +78,10 @@ In this **intrasubject** test, the focus is on classifying **auditory vs. visual
 - **Event Conditions**: Utilize specific experimental event markers for auditory vs. visual stimuli.
 - **Classification**: Implement machine learning models (e.g., **XGBoost**) to classify the stimuli based on the features extracted from the EEG data.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## Test3: Brain-Computer Interface (BCI) with CSP and XGBoost
 
 This test focuses on **intrasubject** Brain-Computer Interface (BCI) tasks. The data is processed using **Common Spatial Pattern (CSP)** for feature extraction, followed by **XGBoost** for classification.
@@ -92,10 +91,10 @@ This test focuses on **intrasubject** Brain-Computer Interface (BCI) tasks. The 
 - **Classification with XGBoost**: Use the extracted features to classify tasks such as **left vs. right motor imagery** or other BCI tasks.
 - **Machine Learning**: Use **XGBoost** to classify different brain states based on the features derived through CSP.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## Test4: Wavelet Denoising for Event-Related Epochs
 
 This **intrasubject** test applies **wavelet denoising** to EEG data to clean up noise before performing further analysis on event-related epochs.
@@ -105,10 +104,10 @@ This **intrasubject** test applies **wavelet denoising** to EEG data to clean up
 - **Event Conditions**: Focus on conditions like `auditory/left`, `auditory/right`, etc., for event-related potential (ERP) analysis.
 - **Data Cleaning**: Use wavelet denoising as a preprocessing step to improve signal quality before extracting features for classification.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## Test5: Intracranial EEG (iEEG) Seizure Classification
 
 This test focuses on **intrasubject** **intracranial EEG (iEEG)** data and its classification for **epilepsy-related** events such as seizures.
@@ -119,10 +118,10 @@ This test focuses on **intrasubject** **intracranial EEG (iEEG)** data and its c
 - **Seizure Classification**: Apply machine learning models to classify **seizure** vs **non-seizure** events.
 - **Context**: This test is highly specific to **epilepsy** and seizure detection tasks.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## Test6: Spectral Analysis and Classification with XGBoost
 
 This **intrasubject** test applies spectral analysis to **intracranial EEG (iEEG)** data, specifically using **stereo-electroencephalography (sEEG)**, followed by classification using **XGBoost** based on frequency-domain features.
@@ -133,10 +132,10 @@ This **intrasubject** test applies spectral analysis to **intracranial EEG (iEEG
 - **Frequency Bands**: Focus on **frequency bands** like Delta, Theta, Alpha, etc., to capture the dynamics of neurological activity, such as seizures.
 - **Stereo-EEG Data**: This test specifically uses **stereo-EEG** data, which involves intracranial electrodes for high-resolution monitoring of brain activity, especially useful in epilepsy detection.
 
-&nbsp;
+
 
 ---
-
+&nbsp;
 ## Libraries Used
 
 - **MNE**: A comprehensive library for processing and analyzing EEG and MEG data. It is used for data loading, filtering, event extraction, epoching, and spectral analysis.
