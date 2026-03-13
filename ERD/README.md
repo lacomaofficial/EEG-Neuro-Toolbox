@@ -12,6 +12,7 @@ A unified Python library for validating source-localized LCMV activity against i
 - [Usage Examples](#usage-examples)
 - [Configuration](#configuration)
 - [Output Interpretation](#output-interpretation)
+- [API Reference](#api-reference)
 
 
 ---
@@ -479,7 +480,6 @@ Significance: *** p<0.001, ** p<0.01, * p<0.05
 | `create_custom_config()` | Create custom STNConfig |
 
 ---
-
 
 
 ## Support
