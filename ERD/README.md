@@ -12,8 +12,7 @@ A unified Python library for validating source-localized LCMV activity against i
 - [Usage Examples](#usage-examples)
 - [Configuration](#configuration)
 - [Output Interpretation](#output-interpretation)
-- [API Reference](#api-reference)
-- [Citation](#citation)
+
 
 ---
 
